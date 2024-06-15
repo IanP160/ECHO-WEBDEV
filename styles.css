@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navigationTab ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigationTab ul li {
+    margin: 0 15px;
+}
+
+.navigationTab ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigationTab ul li a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.leadership {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.leader {
+    text-align: center;
+    margin: 20px;
+}
+
+.leader img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
