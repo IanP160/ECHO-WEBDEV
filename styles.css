@@ -23,10 +23,15 @@ header {
 
 }
 
+.nav-link text-white {
+    text-decoration: none;
+}
 
-.navigationTab ul li a.active {
+.nav-link active text-white {
     text-decoration: underline;
 }
+
+
 
 main {
     padding: 20px;
