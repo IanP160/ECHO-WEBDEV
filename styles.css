@@ -9,23 +9,19 @@ header {
     text-align: center;
 }
 
-.navigationTab ul {
+.navigationTab ul li a{
+    
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
-}
-
-.navigationTab ul li {
-    margin: 0 15px;
-}
-
-.navigationTab ul li a {
+    justify-content: flex-end;
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    margin: 0 15px;
+
 }
+
 
 .navigationTab ul li a.active {
     text-decoration: underline;
