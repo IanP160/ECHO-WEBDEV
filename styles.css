@@ -13,8 +13,8 @@
 
 }
 
-.left{
-  background: blueviolet;
+#contact.left{
+  background: primary;
   padding: 200px 98px;
 }
 
