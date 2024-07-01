@@ -3,11 +3,11 @@
 
 }
 
-.form-area{
+ #contact .form-area{
   padding-top: 7%;
 }
 
-.row.single-form{
+ #contact .row.single-form{
   box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
   background: #fff;
 
@@ -15,7 +15,7 @@
 
 #contact .left{
   background: blue;
-  padding: 200px 98px;
+  padding: 200px 93px;
 }
 
 
@@ -50,6 +50,44 @@
 
 .form-control{
   border: 2px solid #000;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    #contact .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+        
+    }
+}
+
+@media (max-width: 767px)
+{
+    #contact .left{
+        padding: 90px 15px;
+        text-align: center;
+        
+    }
+
+     #contact .left h2{
+        font-size: 25px;
+    }
+
+     #contact .right{
+        padding: 25px;
+    }
+
+     #contact .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+
+     #contact .right button{
+        width: 150px;
+        padding: 12px 0;
+    }
 }
 
 
