@@ -1,1 +1,55 @@
+#contact{
+    background: #e8e8e8;
+
+}
+
+.form-area{
+  padding-top: 7%;
+}
+
+.row.single-form{
+  box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+  background: #fff;
+
+}
+
+#contact.left{
+  background: blueviolet;
+  padding: 200px 98px;
+}
+
+
+#contact.left h2{
+  font-family: poppins;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  
+}
+
+#contact.left h2 span{
+  font-weight: 100;
+
+}
+
+#contact.right h2{
+  padding: 70px 100px;
+  postion: relative;
+  
+}
+
+
+#contact.right i{ 
+  position: absolute;
+  font-size: 80px;
+  left: -27px;
+  top: 40%;
+  color: #fff;
+  
+}
+
+.form-control{
+  border: 2px solid #000;
+}
+
 
