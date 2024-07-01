@@ -13,13 +13,13 @@
 
 }
 
-#contact.left{
+#contact .left{
   background: primary;
   padding: 200px 98px;
 }
 
 
-#contact.left h2{
+#contact .left h2{
   font-family: poppins;
   color: #fff;
   font-weight: 700;
@@ -27,19 +27,19 @@
   
 }
 
-#contact.left h2 span{
+#contact .left h2 span{
   font-weight: 100;
 
 }
 
-#contact.right h2{
+#contact .right h2{
   padding: 70px 100px;
-  postion: relative;
+  position: relative;
   
 }
 
 
-#contact.right i{ 
+#contact .right i{ 
   position: absolute;
   font-size: 80px;
   left: -27px;
