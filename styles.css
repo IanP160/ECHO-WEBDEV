@@ -12,8 +12,8 @@
 }
 
 #logo img {
-  max-width: 150px; /* Adjust the max width as needed */
-  height: auto;
+  width: 20px; /* Adjust the max width as needed */
+  height: 20px;
 }
 
 /*--------------------------------------------------------------
