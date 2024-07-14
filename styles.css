@@ -11,7 +11,7 @@
   z-index: 1000;
 }
 
-#logo img {
+#logo {
   width: 20px; /* Adjust the max width as needed */
   height: 20px;
 }
