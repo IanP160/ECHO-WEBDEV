@@ -1,3 +1,87 @@
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+  padding: 14px 0;
+  position: fixed;
+}
+
+
+
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+.banner-area {
+	background:url(/img/EchoBackground.jpeg) center;
+	background-size:cover;
+	.overlay-bg{
+		background:dark;
+	}
+}
+.banner-content {
+	z-index:2;
+	h1{
+		font-size: 72px;
+		font-weight: 700;
+		line-height: 1em;
+		margin-top:20px;
+		span{
+			font-weight:700;
+		}
+		@include media-breakpoint-down(md) {
+			font-size: 36px;
+		}
+		br {
+			@include media-breakpoint-down (md) {
+				display: none;
+			}
+		}
+
+		@include media-breakpoint-down (lg) {
+			font-size:45px;
+		}	
+
+		@media ( max-width:414px ) {
+			font-size:32px;
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Contact Form
+--------------------------------------------------------------*/
 #contact{
     background: #e8e8e8;
 
