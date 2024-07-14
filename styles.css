@@ -17,7 +17,7 @@
 # Banner
 --------------------------------------------------------------*/
 .banner-area {
-	background: url("../img/EchoBackground.jpeg") center;
+	background-image: url("img/EchoBackground.jpeg") center;
  	background-size: cover;
   	height: 100vh;
   	position: relative;
