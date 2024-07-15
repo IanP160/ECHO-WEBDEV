@@ -60,6 +60,23 @@
 }
 
 
+.card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 150px; /* Adjust as needed */
+  object-fit: cover;
+  border-radius: 8px; /* Optional: To make the image corners rounded */
+}
+
+
+
+
+
+
+
+
+
+
 
 .container-content{
 	padding: 200px;
