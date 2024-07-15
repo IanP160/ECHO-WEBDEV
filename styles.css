@@ -61,20 +61,20 @@
 
 .img-container {
   width: 100%;
-  padding-top: 100%; /* 1:1 Aspect Ratio */
+  height: 0;
+  padding-bottom: 100%; /* 1:1 Aspect Ratio */
   position: relative;
   overflow: hidden;
   border-radius: 8px; /* Optional: To make the image corners rounded */
 }
 
-
-
 .card-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  max-height: 150px; /* Adjust as needed */
+  height: 100%;
   object-fit: cover;
-  border-radius: 8px; /* Optional: To make the image corners rounded */
 }
 
 
