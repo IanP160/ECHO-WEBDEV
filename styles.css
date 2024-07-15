@@ -146,7 +146,7 @@
 @media (max-width: 767px)
 {
     #contact .left{
-        padding: 90px 15px;
+        padding: 100px 15px;
         text-align: center;
         
     }
@@ -156,7 +156,7 @@
     }
 
      #contact .right{
-        padding: 25px;
+        padding: 100px;
     }
 
      #contact .right i{
