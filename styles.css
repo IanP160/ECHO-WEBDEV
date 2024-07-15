@@ -83,13 +83,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 200vh;
+  height: 100vh;
 }
 
 .recruit-bg {
   background: url("img/Recruitimage.jpeg") center center no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 200%;
 }
 
 .recruit-content {
