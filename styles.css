@@ -11,6 +11,17 @@
 }
 /* Logo Styling */
 
+#logo {
+  display: inline-block;
+  width: 50px; /* Adjust this value to your desired width */
+  height: auto;
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 
