@@ -12,8 +12,8 @@
 }
 /* Logo Styling */
 #logo {
-  max-width: 50px; /* Adjust the max width as needed */
-  height: auto;
+  width: 50px; /* Adjust the max width as needed */
+  height: 50px;
 }
 
 
