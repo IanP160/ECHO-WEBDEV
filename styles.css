@@ -102,7 +102,9 @@
   color: white;
   font-weight: 250;
 
-  
+#contact .left a{
+  color: white;
+  font-weight: 250;
   
 }
 
@@ -174,7 +176,7 @@
 	background: url("img/ECHOFooter.png") center;
  	background-size: cover;
   	position: relative;
-	height: auto;
+  	height: 100vh;
 }
 
 
