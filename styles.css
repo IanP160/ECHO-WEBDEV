@@ -95,6 +95,13 @@
   background-size: cover;
   height: 100vh;
 }
+.joinUs-bg {
+  background: url("img/EchoGraingerPic.jpeg") center center no-repeat;  
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+}
+
 
 .recruit-content {
   background-color: #f8f9fa;
