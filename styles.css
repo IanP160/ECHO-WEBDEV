@@ -13,12 +13,12 @@
 
 #logo {
   display: inline-block;
-  width: 100px; /* Adjust this value to your desired width */
+  width: 75px; /* Adjust this value to your desired width */
   height: auto;
 }
 
 #logo img {
-  width: 120%;
+  width: 100%;
   height: auto;
 }
 
@@ -33,7 +33,7 @@
 	background-color: rgba(200,100,0,.5);
   	background-blend-mode: multiply;
  	background-size: cover;
-  	height: 120vh;
+  	height: 100vh;
   	position: relative;
 }
 
@@ -86,7 +86,7 @@
 }
 
 #contact .left{
-  background: primary;
+  background: blue;
   padding: 200px 93px;
 }
 
@@ -102,9 +102,7 @@
   color: white;
   font-weight: 250;
 
-#contact .left a{
-  color: white;
-  font-weight: 250;
+  
   
 }
 
@@ -114,7 +112,7 @@
 }
 
 #contact .right{
-  padding: 100px;
+  padding: 70px 100px;
   position: relative;
   
 }
@@ -146,7 +144,7 @@
 @media (max-width: 767px)
 {
     #contact .left{
-        padding: 100px 15px;
+        padding: 90px 15px;
         text-align: center;
         
     }
@@ -156,7 +154,7 @@
     }
 
      #contact .right{
-        padding: 100px;
+        padding: 25px;
     }
 
      #contact .right i{
@@ -173,12 +171,10 @@
 
 
 .footers {
-
- 	background: url("img/ECHOFooter.png") center;
-  	background-size: cover;
-   	position: relative;
+	background: url("img/ECHOFooter.png") center;
+ 	background-size: cover;
+  	position: relative;
 }
-
 
 
 
