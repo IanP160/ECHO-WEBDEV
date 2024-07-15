@@ -90,12 +90,12 @@
   background: url("img/Recruitimage.jpeg") center center no-repeat;  
   justify-content: center;
   background-size: cover;
-  height: 225%;
+  height: 100vh;
 }
 
 .recruit-content {
   background-color: #f8f9fa;
-  height: 225%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
