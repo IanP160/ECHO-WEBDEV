@@ -87,7 +87,7 @@
 }
 
 .recruit-bg {
-  background: url('Recruitimage.jpeg') center center no-repeat;
+  background: url("Recruitimage.jpeg") center center no-repeat;
   background-size: cover;
   height: 100%;
 }
