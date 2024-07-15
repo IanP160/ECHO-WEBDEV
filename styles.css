@@ -173,15 +173,10 @@
 
 
 .footers {
-	background: url("img/ECHOFooter.png") center;
-   	background-size: cover;
-  	height: 200px; /* Adjust height as needed */
-  	position: relative;
-  	color: white;
-  	text-align: center;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
+
+ 	background: url("img/ECHOFooter.png") center;
+  	background-size: cover;
+   	position: relative;
 }
 
 
