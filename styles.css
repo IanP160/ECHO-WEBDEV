@@ -11,7 +11,7 @@
   z-index: 1000;
 }
 /* Logo Styling */
-#logo img {
+#logo {
   max-width: 100px; /* Adjust the max width as needed */
   height: auto;
 }
