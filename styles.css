@@ -64,13 +64,13 @@
 
 /* Mission Section */
 .mission-section {
-  background-color: #d9534f; /* Red color similar to the example */
+  background-color: primary; 
   color: white;
   padding: 60px 0;
 }
 
 .mission-content {
-  background: #d9534f; /* Red color similar to the example */
+  background: primary; 
   color: white;
   padding: 60px;
 }
