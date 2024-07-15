@@ -174,9 +174,14 @@
 
 .footers {
 	background: url("img/ECHOFooter.png") center;
- 	background-size: cover;
+   	background-size: cover;
+  	height: 200px; /* Adjust height as needed */
   	position: relative;
-  	height: 100vh;
+  	color: white;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
 }
 
 
