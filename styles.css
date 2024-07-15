@@ -118,10 +118,15 @@
 
 
 #contact .left h2{
-  font-family: poppins;
   color: white;
   font-weight: 700;
   font-size: 48px;
+  
+}
+
+#contact .left p{
+  color: white;
+  
   
 }
 
