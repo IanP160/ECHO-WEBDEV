@@ -41,7 +41,7 @@
 }
 
 .banner-area-joinEcho {
-	background: url("img/EchoBackground.jpeg") center;
+	background: url("img/JoinUsEcho.webp") center;
 	background-color: rgba(200,100,0,.5);
   	background-blend-mode: multiply;
  	background-size: cover;
@@ -50,7 +50,7 @@
 }
 
 .banner-area-members {
-	background: url("img/EchoBackground.jpeg") center;
+	background: url("img/MembersEcho.jpeg") center;
 	background-color: rgba(200,100,0,.5);
   	background-blend-mode: multiply;
  	background-size: cover;
@@ -59,7 +59,7 @@
 }
 
 .banner-area-recruit {
-	background: url("img/EchoBackground.jpeg") center;
+	background: url("img/RecruitEcho.jpeg") center;
 	background-color: rgba(200,100,0,.5);
   	background-blend-mode: multiply;
  	background-size: cover;
