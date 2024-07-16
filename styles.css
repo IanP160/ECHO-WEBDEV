@@ -84,13 +84,13 @@
 
 .banner-content h1 {
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 1000;
   line-height: 1em;
   margin-top: 20px;
 }
 
 .banner-content h1 span {
-  font-weight: 700;
+  font-weight: 1000;
 }
 
 /* Mission Section */
@@ -107,14 +107,12 @@
 }
 
 .mission-section h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
 .mission-section .mission-text {
-  font-size: 1.2rem;
-  line-height: 1.6;
+
 }
 
 
@@ -173,7 +171,7 @@
 
 .recruit-content h2 {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 500;
   color: #212529;
 }
 
