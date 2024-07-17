@@ -277,7 +277,13 @@
 
 
 @media (min-width: 768px) {
+    #recruit {
+	   padding: 200px;
 
+
+    }	
+
+	
     #contact {
 	   padding: 200px;
 
@@ -294,9 +300,16 @@
 @media (max-width: 767px)
 {
 
+     #recruit {
+	 padding-top: 75px;
+	    padding-bottom: 75px;
+	     
+     }
+
+	
      #contact {
-	    padding-top: 50px;
-	    padding-bottom: 50px;
+	    padding-top: 75px;
+	    padding-bottom: 75px;
 
     }	
     #contact .left{
