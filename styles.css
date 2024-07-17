@@ -210,6 +210,7 @@
 #contact{
 	background: #e8e8e8;
 
+
 }
 
  #contact .form-area{
@@ -278,8 +279,8 @@
 @media (min-width: 768px) and (max-width: 991px){
 
     #contact {
-	    padding-top: 50;
-	    padding-bottom: 50;
+	   padding: 100px;
+
 
     }			    
     #contact .right i{
@@ -295,6 +296,8 @@
 
      #contact {
 	   padding: 100;
+	     	    padding-top: 50px;
+	    padding-bottom: 50px;
 
     }	
     #contact .left{
