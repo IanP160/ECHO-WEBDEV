@@ -276,6 +276,12 @@
 
 
 @media (min-width: 768px) and (max-width: 991px){
+
+    #contact {
+	    padding-top: 50;
+	    padding-bottom: 50;
+
+    }			    
     #contact .right i{
         top: -52px;
         transform: rotate(90deg);
@@ -286,6 +292,11 @@
 
 @media (max-width: 767px)
 {
+
+     #contact {
+	   padding: 100;
+
+    }	
     #contact .left{
         padding: 90px 15px;
         text-align: center;
