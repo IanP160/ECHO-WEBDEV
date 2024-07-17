@@ -283,6 +283,11 @@
 
 
 @media (min-width: 768px) {
+
+.container-content-callToAction{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
     #recruit {
 	 padding-top: 200px;
 	    padding-bottom: 200px;
@@ -314,7 +319,10 @@
 
 @media (max-width: 767px)
 {
-	
+.container-content-callToAction{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}	
 
 .container-content-Leadership{
 	padding-top: 100px;
