@@ -119,7 +119,19 @@
 
 }
 
+.Leadership h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
 
+.Leadership h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+
+  margin-bottom: 10px;
+}
 
 
 
