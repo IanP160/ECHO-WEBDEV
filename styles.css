@@ -333,18 +333,7 @@
 --------------------------------------------------------------*/
 
 /* Recruit Section */
-.recruit-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-}
 
-.recruit-bg {
-  background: url('img/RecruitImage.jpeg') center center no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
 
 .recruit-content {
   background-color: #f8f9fa;
@@ -373,6 +362,45 @@
   font-size: 1.2rem;
 }
 
+.recruit-container-content {
+  background-color: #f8f9fa;
+}
+
+.recruit-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+}
+
+.recruit-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.recruit-overview-section {
+  padding: 40px 0;
+}
+
+.recruit-overview-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.recruit-divider-thin {
+  height: 5px;
+  background-color: #d9534f;
+  margin: 20px 0;
+}
+
+.recruit-list {
+  padding: 40px 0;
+}
+
+.recruit-list h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
 
 
