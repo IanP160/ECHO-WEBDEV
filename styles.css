@@ -326,6 +326,44 @@
 /*--------------------------------------------------------------
 # members
 --------------------------------------------------------------*/
+/* Overview Section */
+.overview-section {
+    background-color: #00aaff;
+    color: white;
+    padding: 60px 0;
+}
+
+.overview-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.overview-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Members List */
+.members-list {
+    padding: 40px 0;
+}
+
+.members-list h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.members-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.members-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
 
 
 /*--------------------------------------------------------------
