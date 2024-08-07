@@ -322,7 +322,10 @@
 # joinEcho
 --------------------------------------------------------------*/
 
-
+.joinEcho-container-content {
+  padding: 200px;
+  background-color: #f8f9fa;
+}
 
 
 /*--------------------------------------------------------------
@@ -346,6 +349,13 @@
 }
 
 /* Members List */
+
+
+.members-container-content {
+  padding: 200px;
+  background-color: #f8f9fa;
+}
+
 .members-list {
     padding: 40px 0;
 }
@@ -402,6 +412,7 @@
 }
 
 .recruit-container-content {
+  padding: 200px;
   background-color: #f8f9fa;
 }
 
