@@ -327,12 +327,16 @@
   background-color: #f8f9fa;
 }
 
+.joinEcho-overview-section {
+    
+}
+
 
 /*--------------------------------------------------------------
 # members
 --------------------------------------------------------------*/
 /* Overview Section */
-.overview-section {
+.members-overview-section {
     padding: 100px 50px;	
     background-color: #007bff;
     color: white;
