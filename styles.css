@@ -333,14 +333,14 @@
 --------------------------------------------------------------*/
 /* Overview Section */
 .overview-section {
-    background-color: #00aaff;
+    background-color: #007bff;
     color: white;
 }
 
 .overview-section h2 {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .overview-section p {
@@ -362,8 +362,8 @@
 
 .members-list h2 {
     font-size: 2rem;
-    font-weight: bold;
     margin-bottom: 20px;
+    color: #007bff;
 }
 
 .members-list ul {
@@ -443,7 +443,7 @@
 
 .recruit-divider-thin {
   height: 5px;
-  background-color: #d9534f;
+  background-color: #007bff;
   margin: 20px 0;
 }
 
