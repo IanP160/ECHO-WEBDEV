@@ -236,7 +236,7 @@
 }
 
 .container-content-thin{
-	padding: 100px;
+	padding: 100px 0px;
 }
 
 
@@ -414,6 +414,11 @@
 .recruit-container-content {
   padding: 100px;
   background-color: #f8f9fa;
+}
+
+
+.recruit-container-content-thin{
+	padding: 100px 0px;
 }
 
 .recruit-header {
