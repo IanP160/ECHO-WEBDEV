@@ -328,6 +328,10 @@
 }
 
 .joinEcho-overview-section {
+  padding: 100px;
+  background-color: #007bff;
+  color: white;	
+	
     
 }
 
@@ -336,8 +340,14 @@
 # members
 --------------------------------------------------------------*/
 /* Overview Section */
+.members-container-content {
+  padding: 100px;
+  background-color: #f8f9fa;
+}
+
+
 .members-overview-section {
-    padding: 100px 50px;	
+    padding: 50px 50px;	
     background-color: #007bff;
     color: white;
 }
@@ -355,11 +365,6 @@
 
 /* Members List */
 
-
-.members-container-content {
-  padding: 100px;
-  background-color: #f8f9fa;
-}
 
 .members-list {
     padding: 40px 0;
@@ -438,7 +443,9 @@
 }
 
 .recruit-overview-section {
-  padding: 50px 0;
+  padding: 50px 50px;
+  background-color: #007bff;
+  color: white;	
 }
 
 .recruit-overview-section p {
