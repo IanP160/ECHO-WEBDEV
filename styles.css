@@ -336,6 +336,18 @@
 }
 
 
+.joinEcho-application-status {
+  padding: 40px 0;
+}
+
+.joinEcho-application-status h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # members
 --------------------------------------------------------------*/
