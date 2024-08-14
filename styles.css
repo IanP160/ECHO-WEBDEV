@@ -372,13 +372,12 @@
 
 .members-overview-section h2 {
     font-size: 2.5rem;
-    font-weight: bold;
     margin-bottom: 50px;
 }
 
 .members-overview-section p {
     font-size: 1.2rem;
-    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 /* Members List */
