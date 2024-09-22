@@ -39,6 +39,7 @@ a.btn-primary {
   width: 100%;
   z-index: 1000;
 }
+
 /* Logo Styling */
 
 #logo {
@@ -56,12 +57,9 @@ a.btn-primary {
   padding: 100px;
 }
 
-
 .divider-thin {
   padding: 50px;
 }
-
-
 
 /*--------------------------------------------------------------
 # Banner
@@ -75,33 +73,15 @@ a.btn-primary {
   	position: relative;
 }
 
-.banner-area-joinEcho {
-	background: url("img/JoinUsEcho.webp") center;
-	background-color: rgba(200,100,0,.5);
-  	background-blend-mode: multiply;
- 	background-size: cover;
-  	height: 100vh;
-  	position: relative;
-}
-
-.banner-area-members {
-	background: url("img/MembersEcho.jpeg") center;
-	background-color: rgba(200,100,0,.5);
-  	background-blend-mode: multiply;
- 	background-size: cover;
-  	height: 100vh;
-  	position: relative;
-}
-
+.banner-area-joinEcho,
+.banner-area-members,
 .banner-area-recruit {
-	background: url("img/RecruitEcho.jpeg") center;
 	background-color: rgba(200,100,0,.5);
   	background-blend-mode: multiply;
  	background-size: cover;
   	height: 100vh;
   	position: relative;
 }
-
 
 .banner-content {
   z-index: 2;
@@ -119,21 +99,17 @@ a.btn-primary {
   margin-top: 20px;
 }
 
-.banner-content h1 span {
-  font-weight: 750;
-}
-
 /*--------------------------------------------------------------
 # Mission
 --------------------------------------------------------------*/
 .home-mission-section {
-  background-color: #712d3b; 
+  background-color: var(--primary-color);
   color: white;
   padding: 25px 0;
 }
 
 .home-mission-content {
-  background: #712d3b; 
+  background-color: var(--primary-color);
   color: white;
   padding: 60px;
 }
@@ -148,7 +124,6 @@ a.btn-primary {
   color: white;
   font-weight: 250;
   font-size: 1.2rem;
-
 }
 
 /*--------------------------------------------------------------
@@ -164,23 +139,17 @@ a.btn-primary {
 .home-leadership-section h3 {
   font-size: 1.5rem;
   font-weight: 300;
-  margin-top: 10px;
-
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
-
-
 
 .home-leadership-img-container {
   width: 100%;
   height: 0;
-  padding-bottom: 100%; /* 1:1 Aspect Ratio */
+  padding-bottom: 100%;
   position: relative;
   overflow: hidden;
-  border-radius: 8px; /* Optional: To make the image corners rounded */
+  border-radius: 8px;
 }
-
-
 
 .home-leadership-card-img-top {
   position: absolute;
@@ -203,19 +172,11 @@ a.btn-primary {
   height: 100vh;
 }
 
-.home-recruit-bg {
-  background: url("img/Recruitimage.jpeg") center center no-repeat;  
-  justify-content: center;
-  background-size: cover;
-  height: 100vh;
-}
+.home-recruit-bg,
 .home-joinUs-bg {
-  background: url("img/EchoGraingerPic.jpeg") center center no-repeat;  
-  justify-content: center;
   background-size: cover;
   height: 100vh;
 }
-
 
 .home-recruit-content {
   background-color: #f8f9fa;
@@ -236,117 +197,56 @@ a.btn-primary {
   font-size: 1.2rem;
   color: #212529;
   font-weight: 250;
-
 }
 
 .home-recruit-content .btn-primary {
   width: 50%;
-  background-color: #712d3b;
-  border-color: #712d3b;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   font-size: 1.2rem;
 }
-
-
-
-
-
-.container-content-Leadership{
-	padding: 200px;
-
-}
-
-
-.container-content-callToAction{
-	
-}
-
-
-.container-content{
-	padding: 200px;
-}
-
-.container-content-thin{
-	padding: 100px 0px;
-}
-
-
 
 /*--------------------------------------------------------------
 # Contact Form
 --------------------------------------------------------------*/
-#contact{
-	background: white;
-
-
+#contact {
+  background: white;
 }
 
- #contact .form-area{
+#contact .form-area {
   padding-top: 7%;
 }
 
- #contact .row.single-form{
+#contact .row.single-form {
   box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
   background: #fff;
-
 }
 
-#contact .left{
-  background: #712d3b;
+#contact .left {
+  background-color: var(--primary-color);
   padding: 200px 93px;
 }
 
-
-#contact .left h2{
+#contact .left h2 {
   color: white;
   font-weight: 500;
   font-size: 48px;
-  
 }
 
-#contact .left a{
+#contact .left a,
+#contact .left p {
   color: white;
   font-weight: 250;
-
 }
 
-#contact .left p{
-  color: white;
-  font-weight: 250;
-
-  
-  
-}
-
-#contact .left h2 span{
-  font-weight: 500;
-
-}
-
-#contact .right{
+#contact .right {
   padding: 70px 100px;
   position: relative;
-  
 }
 
-
-#contact .right i{ 
-  position: absolute;
-  font-size: 80px;
-  left: -27px;
-  top: 40%;
-  color: #fff;
-  
-}
-
-.form-control{
+.form-control {
   border: 2px solid #000;
 }
-
-
-
-
-
-
 
 /*--------------------------------------------------------------
 # joinEcho
@@ -359,88 +259,27 @@ a.btn-primary {
 
 .joinEcho-overview-section {
   padding: 50px 50px;
-  background-color: #712d3b;
-  color: white;	
-	
-    
-}
-
-
-.joinEcho-application-status {
-  padding: 40px 0;
-}
-
-.joinEcho-application-status h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .joinEcho-divider-thin {
   height: 5px;
-  background-color: #712d3b;
+  background-color: var(--primary-color);
   margin: 20px 0;
 }
 
-
-
-
 /*--------------------------------------------------------------
-# members
+# Members Section
 --------------------------------------------------------------*/
-/* Overview Section */
 .members-container-content {
   padding: 100px;
   background-color: #f8f9fa;
 }
 
-
-.members-overview-section {
-    padding: 50px 50px;	
-    background-color: #007bff;
-    color: white;
-}
-
-.members-overview-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-}
-
-.members-overview-section p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-/* Members List */
-
-
-.members-list {
-    padding: 40px 0;
-}
-
-.members-list h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #007bff;
-}
-
-.members-list ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.members-list li {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-
 /*--------------------------------------------------------------
-# recruit
+# recruit Section
 --------------------------------------------------------------*/
-
-/* Recruit Section */
-
-
 .recruit-content {
   background-color: #f8f9fa;
   height: 100vh;
@@ -462,175 +301,45 @@ a.btn-primary {
   color: #212529;
 }
 
-.recruit-content .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-  font-size: 1.2rem;
-}
-
-.recruit-container-content {
-  padding: 100px;
-  background-color: #f8f9fa;
-}
-
-
-.recruit-container-content-thin{
-	padding: 50px 0px;
-}
-
-.recruit-header {
-  background-color: #007bff;
-  color: white;
-  padding: 20px 0;
-}
-
-.recruit-header h1 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.recruit-overview-section {
-  padding: 50px 50px;
-  background-color: #007bff;
-  color: white;	
-}
-
-.recruit-overview-section h2 {
-   font-size: 2.5rem;
-   margin-bottom: 50px;
-}
-
-.recruit-overview-section p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.recruit-divider-thin {
-  height: 5px;
-  background-color: #007bff;
-  margin: 20px 0;
-}
-
-.recruit-list {
-  padding: 40px 0;
-}
-
-.recruit-list h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px) {
-
-.container-content-callToAction{
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-    #recruit {
-	 padding-top: 200px;
-	    padding-bottom: 200px;
-
-    }	
-.container-content-callToAction{
-	padding: 200px;
-}	
-	
-.container-content-Leadership{
-	padding: 100px;
-
-
-}
-
-	
-    .container-content-contact {
-	   padding: 200px;
-
-
-    }			    
-    #contact .right i{
-        top: -52px;
-        transform: rotate(90deg);
-        left: 50%;
-        
-    }
-}
-
-@media (max-width: 767px)
-{
-.container-content-callToAction{
-	padding-top: 50px;
-	padding-bottom: 50px;
-}	
-
-.container-content-Leadership{
-	padding-top: 100px;
-	padding-bottom: 100px;
-
-}
-
-	.container-content-callToAction{
-	padding-top: 50px;
-	padding-bottom: 50px;
-
-}
-	
-
-     #recruit {
-	 padding-top: 75px;
-	    padding-bottom: 75px;
-	     
-     }
-
-	
-      .container-content-contact {
-	    padding-top: 75px;
-	    padding-bottom: 75px;
-
-    }	
-    #contact .left{
-        padding: 90px 15px;
-        text-align: center;
-        
-    }
-
-     #contact .left h2{
-        font-size: 25px;
-    }
-
-     #contact .right{
-        padding: 25px;
-    }
-
-     #contact .right i{
-        top: -52px;
-        transform: rotate(90deg);
-        left: 45%;
-    }
-
-     #contact .right button{
-        width: 150px;
-        padding: 12px 0;
-    }
-}
-
-
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 .footers {
-	background: url("img/ECHOFooter.png") center;
- 	background-size: cover;
-  	position: relative;
-	height: 250px;
+  background: url("img/ECHOFooter.png") center;
+  background-size: cover;
+  position: relative;
+  height: 250px;
 }
 
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+@media (min-width: 768px) {
+  .container-content-callToAction {
+    padding: 100px 0;
+  }
+}
 
+@media (max-width: 767px) {
+  .container-content-callToAction {
+    padding: 50px 0;
+  }
 
+  #contact .left {
+    padding: 90px 15px;
+    text-align: center;
+  }
 
+  #contact .left h2 {
+    font-size: 25px;
+  }
+
+  #contact .right {
+    padding: 25px;
+  }
+
+  #contact .right button {
+    width: 150px;
+    padding: 12px 0;
+  }
+}
