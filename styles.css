@@ -127,13 +127,13 @@ a.btn-primary {
 # Mission
 --------------------------------------------------------------*/
 .home-mission-section {
-  background-color: blue; 
+  background-color: #712d3b; 
   color: white;
   padding: 25px 0;
 }
 
 .home-mission-content {
-  background: blue; 
+  background: #712d3b; 
   color: white;
   padding: 60px;
 }
