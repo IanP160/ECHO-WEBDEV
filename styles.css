@@ -480,7 +480,7 @@ a.btn-primary {
 
 .recruit-header {
   background-color: #f1efe7;
-  color: white;
+  color: black;
   padding: 20px 0;
 }
 
@@ -491,7 +491,7 @@ a.btn-primary {
 
 .recruit-overview-section {
   padding: 50px 50px;
-  background-color: #712d3b;
+  background-color: #f1efe7;
   color: white;	
 }
 
