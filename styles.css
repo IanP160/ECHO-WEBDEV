@@ -624,6 +624,36 @@ a.btn-primary {
 }
 
 
+
+/* Leadership Section */
+.aboutUs-leadership-img-container {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Ensures a max width for images */
+    margin: 0 auto 15px; /* Center images and add margin */
+}
+
+.card {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.bs-primary-bg-subtle {
+    background-color: #f8f9fa; /* Subtle background color for cards */
+}
+
+@media (max-width: 576px) {
+    /* Adjustments for smaller screens */
+    .aboutUs-leadership-img-container {
+        max-width: 150px; /* Slightly smaller images on mobile */
+    }
+
+    .aboutUs-leadership-section h2 {
+        font-size: 1.75rem;
+    }
+}
+
+
 .footers {
 	background: url("img/ECHOFooter.png") center;
  	background-size: cover;
