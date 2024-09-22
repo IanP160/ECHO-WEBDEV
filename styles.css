@@ -241,8 +241,8 @@ a.btn-primary {
 
 .home-recruit-content .btn-primary {
   width: 50%;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: ##712d3b;
+  border-color: ##712d3b;
   font-size: 1.2rem;
 }
 
@@ -291,7 +291,7 @@ a.btn-primary {
 }
 
 #contact .left{
-  background: blue;
+  background: #712d3b;
   padding: 200px 93px;
 }
 
@@ -359,7 +359,7 @@ a.btn-primary {
 
 .joinEcho-overview-section {
   padding: 50px 50px;
-  background-color: #007bff;
+  background-color: ##712d3b;
   color: white;	
 	
     
@@ -377,7 +377,7 @@ a.btn-primary {
 
 .joinEcho-divider-thin {
   height: 5px;
-  background-color: #007bff;
+  background-color: ##712d3b;
   margin: 20px 0;
 }
 
