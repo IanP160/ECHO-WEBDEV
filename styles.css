@@ -396,7 +396,7 @@ a.btn-primary {
 
 .members-overview-section {
     padding: 50px 50px;	
-    background-color: #007bff;
+    background-color: #712d3b;
     color: white;
 }
 
@@ -420,7 +420,7 @@ a.btn-primary {
 .members-list h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #712d3b;
 }
 
 .members-list ul {
@@ -463,8 +463,8 @@ a.btn-primary {
 }
 
 .recruit-content .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #712d3b;
+  border-color: #712d3b;
   font-size: 1.2rem;
 }
 
@@ -479,7 +479,7 @@ a.btn-primary {
 }
 
 .recruit-header {
-  background-color: #007bff;
+  background-color: #712d3b;
   color: white;
   padding: 20px 0;
 }
@@ -491,7 +491,7 @@ a.btn-primary {
 
 .recruit-overview-section {
   padding: 50px 50px;
-  background-color: #007bff;
+  background-color: #712d3b;
   color: white;	
 }
 
@@ -507,7 +507,7 @@ a.btn-primary {
 
 .recruit-divider-thin {
   height: 5px;
-  background-color: #007bff;
+  background-color: #712d3b;
   margin: 20px 0;
 }
 
