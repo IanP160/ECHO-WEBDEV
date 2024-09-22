@@ -1,12 +1,33 @@
+/* Define a custom property for primary color */
+:root {
+    --primary-color: #712d3b;
+}
+
+/* Override Bootstrap's primary button style */
 .btn-primary {
-        background-color: #712d3b;
-        border-color: #712d3b;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
+
+/* Override text color for primary */
 .text-primary {
-        color: #712d3b !important;
+    color: var(--primary-color) !important;
 }
+
+/* Override background color for primary */
 .bg-primary {
-	background-color: #712d3b !important;
+    background-color: var(--primary-color) !important;
+}
+
+/* If there are any other elements that use Bootstrap's primary color */
+a.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.card.bs-primary-bg-subtle {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 /*--------------------------------------------------------------
