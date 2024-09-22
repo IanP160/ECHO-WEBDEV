@@ -1,4 +1,14 @@
-
+    .btn-primary {
+        background-color: #712d3b;
+        border-color: #712d3b;
+    }
+    .text-primary {
+        color: #712d3b !important;
+    }
+    .bg-primary {
+        background-color: #712d3b !important;
+    }
+    .navb
 
 /*--------------------------------------------------------------
 # Header
