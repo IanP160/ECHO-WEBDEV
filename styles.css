@@ -134,7 +134,7 @@ a.btn-primary {
 
 .home-mission-content {
   background: #712d3b; 
-  color: white;
+  color: black;
   padding: 60px;
 }
 
@@ -145,7 +145,7 @@ a.btn-primary {
 }
 
 .home-mission-section .mission-text {
-  color: white;
+  color: black;
   font-weight: 250;
   font-size: 1.2rem;
 
@@ -366,7 +366,7 @@ a.btn-primary {
 .joinEcho-overview-section {
   padding: 50px 50px;
   background-color: #f1efe7;
-  color: white;	
+  color: black;	
 	
     
 }
@@ -498,7 +498,7 @@ a.btn-primary {
 .recruit-overview-section {
   padding: 50px 50px;
   background-color: #f1efe7;
-  color: white;	
+  color: black;	
 }
 
 .recruit-overview-section h2 {
