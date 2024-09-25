@@ -280,6 +280,12 @@ a.btn-primary {
 
 }
 
+#contact .btn-primary {
+  background-color: #712d3b;
+  border-color: #712d3b;
+  font-size: 1.2rem;
+}
+
  #contact .form-area{
   padding-top: 7%;
 }
