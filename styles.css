@@ -660,6 +660,24 @@ a.btn-primary {
 }
 
 
+
+/* Media Queries for smaller screens */
+@media (max-width: 767px) {
+  .home-recruit-bg, .home-joinUs-bg {
+    background-size: contain; /* Contain the image to fit within the screen without cutting it off */
+    height: auto; /* Let the height adjust based on the content */
+    min-height: 50vh; /* Ensure there is at least a minimum height */
+  }
+}
+
+/* Media Queries for medium screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-recruit-bg, .home-joinUs-bg {
+    background-size: cover; /* Maintain the cover property for medium screens */
+    height: 70vh; /* Slightly reduce the height to prevent excessive space */
+  }
+}
+
 .footers {
 	background: url("img/ECHOFooter.png") center;
  	background-size: cover;
