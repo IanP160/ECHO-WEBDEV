@@ -358,29 +358,28 @@ a.btn-primary {
 # joinEcho
 --------------------------------------------------------------*/
 
+.joinEcho-overview-section {
+  padding: 50px 50px;
+  background-color: #f1efe7;
+  color: black;	
+
 .joinEcho-container-content {
   padding: 50px;
   background-color: #f8f9fa;
 }
 
-.joinEcho-container-content {
+.joinEcho-recruiter-list {
   padding: 100px;
   background-color: #f8f9fa;
 }
 
 
 .joinEcho-container-content {
-    padding: 50px 50px;	
-    background-color: #f1efe7;
-    color: black;
-}
-
-.joinEcho-container-content {
     font-size: 2.5rem;
     margin-bottom: 50px;
 }
 
-.joinEcho-container-content {
+.joinEcho-recruiter-list {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
