@@ -363,12 +363,22 @@ a.btn-primary {
   background-color: #f8f9fa;
 }
 
+
+
 .joinEcho-overview-section {
-  padding: 50px 50px;
-  background-color: #f1efe7;
-  color: black;	
-	
-    
+    padding: 50px 50px;	
+    background-color: #f1efe7;
+    color: black;
+}
+
+.joinEcho-overview-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.joinEcho-overview-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 
