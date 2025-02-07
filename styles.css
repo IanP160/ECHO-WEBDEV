@@ -183,12 +183,11 @@ a.btn-primary {
 
 
 .home-leadership-card-img-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%; /* Ensures responsiveness */
+    height: 300px; /* Adjust this for uniform height */
+    object-fit: cover; /* Crops to maintain aspect ratio */
+    object-position: center top; /* Keeps faces aligned towards the top */
+    border-radius: 8px; /* Optional: rounded corners */
 }
 
 /*--------------------------------------------------------------
